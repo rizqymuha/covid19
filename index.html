@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <title>Covid-19</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png">
+            </a>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- banner section-->
+    <div class="banner-section">
+        <div class="jumbotron">
+            <div class="banner-content text-center pb-3">
+                <h1><span>Covid-19</span></h1>
+                <h2>Live <span>Update</span> Data</h2>
+                <p>Update terakhir : <span class="last-update">03 Mei 2020 12:55:48 WIB</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- end banner section-->
+
+    <!-- count section -->
+    <section class="count-section pb-5">
+        <div class="container">
+            <div class="card shadow">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="d-flex">
+                                <div class="count-left">
+                                    <h3 class="positive"></h3>
+                                    <p>POSITIF</p>
+                                </div>
+                                <div class="count-right ml-auto">
+                                    <img src="img/ic_virus_orange.png" alt="positif">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="d-flex">
+                                <div class="count-left">
+                                    <h3 class="recovered"></h3>
+                                    <p>SEMBUH</p>
+                                </div>
+                                <div class="count-right ml-auto">
+                                    <img src="img/ic_virus_green.png" alt="positif">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="d-flex">
+                                <div class="count-left">
+                                    <h3 class="deaths"></h3>
+                                    <p>MENINGGAL</p>
+                                </div>
+                                <div class="count-right ml-auto">
+                                    <img src="img/ic_viurs_red.png" alt="positif">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="d-flex">
+                                <div class="count-left">
+                                    <h4>INDONESIA</h4>
+                                    <p class="mb-0">
+                                        <b class="indo-positive"></b> POSITIF, <b class="indo-recovered"></b>
+                                        SEMBUH, <b class="indo-deaths"></b> MENINGGAL
+                                    </p>
+                                </div>
+                                <div class="count-right ml-auto">
+                                    <img src="img/ic_indo.png" alt="positif">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end count section -->
+
+    <!-- count country section -->
+    <section class="count-country-section pb-5">
+        <div class="container">
+            <div class="card shadow">
+                <h5 class="card-header">Data Kasus Coronavirus Global</h5>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">NO</th>
+                                    <th scope="col">NEGARA</th>
+                                    <th scope="col">POSITIF</th>
+                                    <th scope="col">SEMBUH</th>
+                                    <th scope="col">MENINGGAL</th>
+                                    <th scope="col">AKTIF</th>
+                                </tr>
+                            </thead>
+                            <tbody class="tb-data-global">
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end count country section -->
+
+    <!-- spread section -->
+    <section class="spread-section py-5">
+        <div class="container">
+            <div class="content-top">
+                <p>Bagaimana Virus Menyebar</p>
+                <h3>Bagaimana Penularan Coronavirus</h3>
+            </div>
+            <div class="content-bottom">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <div class="content-thumb">
+                                    <img src="img/ic_01.png" alt="contact">
+                                </div>
+                                <h5 class="card-title">Kontak Langsung</h5>
+                                <p class="card-text">Virus dapat berpindah langsung melalui kontak langsung dengan orang
+                                    yang terinfeksi.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <div class="content-thumb">
+                                    <img src="img/ic_02.png" alt="contact">
+                                </div>
+                                <h5 class="card-title">Percikan Batuk</h5>
+                                <p class="card-text">Virus dapat berpindah melalui percikan batuk dari orang yang
+                                    terinfeksi.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <div class="content-thumb">
+                                    <img src="img/ic_03.png" alt="contact">
+                                </div>
+                                <h5 class="card-title">Benda Sekitar</h5>
+                                <p class="card-text">Virus juga dapat menyebar melalui benda-benda
+                                    yang disentuh oleh orang yang terinfeksi.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end spread section -->
+
+    <!-- prevent section -->
+    <section class="prevent-section py-5">
+        <div class="container">
+            <div class="content-top">
+                <p>Yang Harus Dilakukan Dan Dihindari</p>
+                <h3>Pencegahan Coronavirus</h3>
+            </div>
+            <div class="content-bottom">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="content-left">
+                            <h4>Apa Yang Harus Dilakukan</h4>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="content-card">
+                                        <div class="card">
+                                            <div class="card-body d-flex">
+                                                <div class="content-thumb">
+                                                    <img src="img/ic_04.png" alt="cuci tangan">
+                                                </div>
+                                                <div class="content-text">
+                                                    <h5 class="card-title">Mencuci Tangan</h5>
+                                                    <p class="card-text">Mencuci tangan dengan benar secara teratur
+                                                        menggunakan sabun.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content-card">
+                                        <div class="card">
+                                            <div class="card-body d-flex">
+                                                <div class="content-thumb">
+                                                    <img src="img/ic_05.png" alt="cuci tangan">
+                                                </div>
+                                                <div class="content-text">
+                                                    <h5 class="card-title">Gunakan Masker</h5>
+                                                    <p class="card-text">Gunakan masker ketika anda sakit atau berada
+                                                        ditempat umum.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content-card">
+                                        <div class="card">
+                                            <div class="card-body d-flex">
+                                                <div class="content-thumb">
+                                                    <img src="img/ic_06.png" alt="cuci tangan">
+                                                </div>
+                                                <div class="content-text">
+                                                    <h5 class="card-title">Menjaga Kesehatan</h5>
+                                                    <p class="card-text">Jaga kesehatan dan kebugaran tubuh agar sistem
+                                                        imunitas meningkat.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="content-right">
+                            <h4>Apa Yang Harus Dihindari</h4>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="content-card">
+                                        <div class="card">
+                                            <div class="card-body d-flex">
+                                                <div class="content-thumb">
+                                                    <img src="img/ic_07.png" alt="cuci tangan">
+                                                </div>
+                                                <div class="content-text">
+                                                    <h5 class="card-title">Hindari Kontak</h5>
+                                                    <p class="card-text">Hindari kontak dengan orang lain atau bepergian
+                                                        ketempat umum</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content-card">
+                                        <div class="card">
+                                            <div class="card-body d-flex">
+                                                <div class="content-thumb">
+                                                    <img src="img/ic_08.png" alt="cuci tangan">
+                                                </div>
+                                                <div class="content-text">
+                                                    <h5 class="card-title">Hindari Menyentuh</h5>
+                                                    <p class="card-text">Hidari menyentuh wajah terlebih pada bagian
+                                                        mata, hidung
+                                                        dan mulut</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content-card">
+                                        <div class="card">
+                                            <div class="card-body d-flex">
+                                                <div class="content-thumb">
+                                                    <img src="img/ic_09.png" alt="cuci tangan">
+                                                </div>
+                                                <div class="content-text">
+                                                    <h5 class="card-title">Hindari Bepergian</h5>
+                                                    <p class="card-text">Hindari bepergian keluar rumah saat merasa
+                                                        kurang sehat, terutama jika merasa demam, batuk dan sulit
+                                                        bernafas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end prevent section -->
+
+    <!-- footer -->
+    <footer class="py-4 text-muted">
+        <div class="container text-center">
+            <small>Made with <i class="fa fa-heart"></i> by <a href="https://www.instagram.com/rizkyvisual/">Muhammad
+                    Rizqy</a></small>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="script/main.js"></script>
+</body>
+
+</html>
