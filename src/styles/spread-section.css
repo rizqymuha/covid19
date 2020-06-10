@@ -1,0 +1,35 @@
+.spread-section .content-top {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.spread-section .content-bottom {
+    border: 0;
+}
+
+.spread-section .content-bottom .card {
+    border-radius: 7px;
+    text-align: center;
+    border: 0;
+}
+
+@media (max-width: 992px) {
+    .spread-section .content-bottom .card {
+        margin: 15px 0;
+    }
+}
+
+.spread-section .content-bottom .card .card-body {
+    padding: 40px;
+}
+
+.spread-section .content-bottom .card .card-body .content-thumb {
+    border-radius: 50px;
+}
+
+.spread-section .content-bottom .card .card-body .content-thumb img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 30px;
+    position: relative;
+}

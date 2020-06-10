@@ -1,0 +1,57 @@
+.prevent-section .content-top {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.prevent-section .content-bottom h4 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 540px)  {
+    .prevent-section .content-bottom .content-right h4 {
+        padding-top: 30px;
+    }
+}
+
+.prevent-section .content-bottom .content-left .content-card {
+    margin-bottom: 10px;
+}
+
+.prevent-section .content-bottom .content-right .content-card {
+    margin-bottom: 10px;
+}
+
+.prevent-section .content-bottom .content-left .card {
+    border: 0;
+    box-shadow: 0 0 10px rgba(136, 136, 136, 0.1);
+}
+
+.prevent-section .content-bottom .content-right .card {
+    border: 0;
+    box-shadow: 0 0 10px rgba(136, 136, 136, 0.1);
+}
+
+.prevent-section .content-bottom .content-left .card .card-body {
+    align-items: center;
+    background: #3498DB;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.prevent-section .content-bottom .content-right .card .card-body {
+    align-items: center;
+    background: #E74C3C;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.prevent-section .content-bottom .content-left .content-thumb img {
+    width: 80px;
+    padding-right: 20px;
+}
+
+.prevent-section .content-bottom .content-right .content-thumb img {
+    width: 80px;
+    padding-right: 20px;
+}

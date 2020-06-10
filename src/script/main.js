@@ -1,10 +1,6 @@
-const baseURL = "https://covid19.mathdro.id";
+import { formatNumber, newDate, newTime } from './format.js';
 
-const formatNumber = (num) => {
-    if (num != null) {
-        return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
-    }
-}
+const baseURL = "https://covid19.mathdro.id";
 
 const getData = fetch(`${baseURL}/api`)
     .then(response => response.json())
@@ -37,7 +33,7 @@ const getDataIndo = fetch(`${baseURL}/api/countries/indonesia`)
 const getDataAllCountry = fetch('https://api.kawalcorona.com')
     .then(response => response.json())
     .then(response => {
-        trDataGlobal = '';
+        let trDataGlobal = '';
         for (let i = 0; i <= response.length; i++) {
             let no = i + 1;
             if (response[i] != null) {
@@ -61,9 +57,5 @@ const showDataGlobal = (results, no) => {
     `
 }
 
-const today = new Date();
-const monthName = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
-let newDate = `${today.getDate()} ${monthName[today.getMonth()]} ${today.getFullYear()}`
-let newTime = `${today.getHours()}:${today.getMinutes()}:${today.getMilliseconds()}`
 const lastUpdate = document.querySelector('.last-update');
 lastUpdate.innerHTML = `${newDate} ${newTime}`
