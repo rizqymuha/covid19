@@ -1,6 +1,6 @@
 const baseURL = "https://covid19.mathdro.id";
 
-function formatNumber(num) {
+const formatNumber = (num) => {
     if (num != null) {
         return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
     }
@@ -9,7 +9,7 @@ function formatNumber(num) {
 const getData = fetch(`${baseURL}/api`)
     .then(response => response.json())
     .then(response => {
-        const { confirmed, recovered, deaths } = response
+        const { confirmed, recovered, deaths } = response;
 
         const conf = document.querySelector('.positive');
         const reco = document.querySelector('.recovered');
@@ -48,7 +48,7 @@ const getDataAllCountry = fetch('https://api.kawalcorona.com')
         }
     });
 
-function showDataGlobal(results, no) {
+const showDataGlobal = (results, no) => {
     return `
         <tr>
             <td>${no}</td>

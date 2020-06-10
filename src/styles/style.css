@@ -7,7 +7,7 @@ body {
 }
 
 .banner-section .jumbotron {
-    background-image: url(img/bg_banner.jpg);
+    background-image: url(../images/bg_banner.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 0;
