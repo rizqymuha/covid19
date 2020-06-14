@@ -16,113 +16,20 @@
 </head>
 
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="./src/images/logo.png">
-            </a>
-        </div>
-    </nav>
-    <!-- end navbar -->
+    <!-- app-bar -->
+    <app-bar></app-bar>
+    <!-- end app-bar -->
 
-    <!-- banner-->
-    <div class="jumbotron">
-        <div class="banner-content text-center pb-3">
-            <h1><span>Covid-19</span></h1>
-            <h2>Live <span>Update</span> Data</h2>
-            <p>Update terakhir : <span class="last-update">03 Mei 2020 12:55:48 WIB</span></p>
-        </div>
-    </div>
-    <!-- end banner -->
+    <!-- app-banner-->
+    <app-banner></app-banner>
+    <!-- end app-banner -->
 
     <!-- count section -->
-    <section class="count-section pb-5">
-        <div class="container">
-            <div class="card shadow">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-6">
-                            <div class="d-flex">
-                                <div class="count-left">
-                                    <h3 class="positive"></h3>
-                                    <p>POSITIF</p>
-                                </div>
-                                <div class="count-right ml-auto">
-                                    <img src="./src/images/ic_virus_orange.png" alt="positif">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-6">
-                            <div class="d-flex">
-                                <div class="count-left">
-                                    <h3 class="recovered"></h3>
-                                    <p>SEMBUH</p>
-                                </div>
-                                <div class="count-right ml-auto">
-                                    <img src="./src/images/ic_virus_green.png" alt="positif">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-6">
-                            <div class="d-flex">
-                                <div class="count-left">
-                                    <h3 class="deaths"></h3>
-                                    <p>MENINGGAL</p>
-                                </div>
-                                <div class="count-right ml-auto">
-                                    <img src="./src/images/ic_viurs_red.png" alt="positif">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-6">
-                            <div class="d-flex">
-                                <div class="count-left">
-                                    <h4>INDONESIA</h4>
-                                    <p class="mb-0">
-                                        <b class="indo-positive"></b> POSITIF, <b class="indo-recovered"></b>
-                                        SEMBUH, <b class="indo-deaths"></b> MENINGGAL
-                                    </p>
-                                </div>
-                                <div class="count-right ml-auto">
-                                    <img src="./src/images/ic_indo.png" alt="positif">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <count-section></count-section>
     <!-- end count section -->
 
     <!-- count country section -->
-    <section class="count-country-section pb-5">
-        <div class="container">
-            <div class="card shadow">
-                <h5 class="card-header">Data Kasus Coronavirus Global</h5>
-                <div class="card-body">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped">
-                            <thead>
-                                <tr>
-                                    <th scope="col">NO</th>
-                                    <th scope="col">NEGARA</th>
-                                    <th scope="col">POSITIF</th>
-                                    <th scope="col">SEMBUH</th>
-                                    <th scope="col">MENINGGAL</th>
-                                    <th scope="col">AKTIF</th>
-                                </tr>
-                            </thead>
-                            <tbody class="tb-data-global">
-
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <count-country-section></count-country-section>
     <!-- end count country section -->
 
     <!-- spread section -->
@@ -299,14 +206,9 @@
     </section>
     <!-- end prevent section -->
 
-    <!-- footer -->
-    <footer class="py-4 text-muted">
-        <div class="container text-center">
-            <small>Made with <i class="fa fa-heart"></i> by
-                <a href="https://www.instagram.com/rizkyvisual/">Muhammad Rizqy</a></small>
-        </div>
-    </footer>
-    <!-- end footer -->
+    <!-- app-footer -->
+    <app-footer></app-footer>
+    <!-- end app-footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -319,7 +221,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    <script src="./src/scripts/main.js" type="module"></script>
+    <script src="./app.js" type="module"></script>
 </body>
 
 </html>

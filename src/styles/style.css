@@ -1,4 +1,3 @@
-@import "./count-section.css";
 @import "./spread-section.css";
 @import "./prevent-section.css";
 
@@ -8,16 +7,4 @@ body {
 
 .bg-f9 {
     background: #f9fcff;
-}
-
-.jumbotron {
-    background-image: url(../images/bg_banner.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 0;
-    color: #fff;
-}
-
-footer {
-    background: white;
 }

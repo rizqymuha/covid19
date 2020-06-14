@@ -1,4 +1,5 @@
 import { formatNumber, newDate, newTime } from './format.js';
+import "./components/app-banner.js";
 
 const baseURL = "https://covid19.mathdro.id";
 
@@ -57,5 +58,6 @@ const showDataGlobal = (results, no) => {
     `
 }
 
-const lastUpdate = document.querySelector('.last-update');
-lastUpdate.innerHTML = `${newDate} ${newTime}`
+const appBanner = document.querySelector('app-banner');
+const lastUpdate = appBanner.shadowRoot.querySelector('.last-update');
+lastUpdate.innerHTML = `${newDate} ${newTime}`;
